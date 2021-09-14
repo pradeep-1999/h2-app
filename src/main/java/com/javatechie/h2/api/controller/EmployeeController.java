@@ -26,7 +26,7 @@ public class EmployeeController {
 	@GetMapping("/testApp")
 	public String testFunction()
 	{
-		return "HELLO THEREEEE!!1  :-)";
+		return "HELLO THEREEEE!!...This is test fn :-)";
 	}
 	
 	@GetMapping("/getAllEmployees")
