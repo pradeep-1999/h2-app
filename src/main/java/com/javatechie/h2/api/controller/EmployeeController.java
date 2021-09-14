@@ -23,6 +23,12 @@ public class EmployeeController {
 		return "Employee saved..";
 	}
 
+	@GetMapping("/testApp")
+	public String testFunction()
+	{
+		return "HELLO THEREEEE!!1  :-)";
+	}
+	
 	@GetMapping("/getAllEmployees")
 	public List<Employee> getAll() {
 		return repository.findAll();
